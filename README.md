@@ -12,17 +12,16 @@ The goal is to demonstrate strong SQL skills within a sports context — alignin
 ## Database Structure
 The database consists of four core tables:
 
-- games – game-level information (teams, scores, dates, type)
-- players – player information
-- player_statistics – player stats for every game
-- teams – team metadata
+- **games** – game-level information (teams, scores, dates, type)
+- **players** – player information
+- **player_statistics** – player stats for every game
+- **teams** – team metadata
 
 All queries were written in standard PostgreSQL.
 
 ---
 
 ## Objectives
-This SQL exploration covers:
 
 ### 1. Schema inspection
 - Listing all tables  
@@ -50,7 +49,8 @@ This SQL exploration covers:
 ## SQL Script
 All queries are contained in:
 
-/sql/nba_data_exploration.sql
+`/sql/nba_data_exploration.sql`
+
 ---
 
 ## Key Findings (Examples)
@@ -72,6 +72,7 @@ You can run the SQL on any PostgreSQL environment:
 3. Run the queries in the order shown in the SQL script  
 
 Tools used:
+
 - DBeaver  
 - PostgreSQL 15  
 
