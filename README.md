@@ -1,6 +1,9 @@
 # NBA SQL Data Exploration
 *A structured SQL project exploring the NBA database using PostgreSQL.*
 
+## Project contents
+/sql/nba_data_exploration.sql contains all queries, ordered by workflow step.
+
 ## Overview
 This project explores an NBA database using SQL.  
 It covers schema inspection, data quality checks, descriptive statistics, correlation analysis, and general exploratory queries commonly used in sports analytics.
