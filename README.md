@@ -3,6 +3,7 @@
 
 ## Project contents
 /sql/nba_data_exploration.sql contains all queries, ordered by workflow step.
+/sql/schema.sql contains the schema and table definitions used by the project.
 
 ## Overview
 This project explores an NBA database using SQL.  
