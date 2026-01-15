@@ -68,12 +68,17 @@ A few highlights from the analysis:
 
 ---
 
-## How to Run This Project
-You can run the SQL on any PostgreSQL environment:
+### How to Run This Project
 
-1. Create the `nba` schema  
-2. Load the four base tables  
-3. Run the queries in the order shown in the SQL script  
+1. Create the schema and tables:
+   - Run `sql/schema.sql` in a PostgreSQL environment
+
+2. Load the data into the tables
+   - Data files are not included in this repository
+   - This project assumes the base tables are populated
+
+3. Run the analysis queries:
+   - Execute `sql/nba_data_exploration.sql` in order
 
 Tools used:
 
